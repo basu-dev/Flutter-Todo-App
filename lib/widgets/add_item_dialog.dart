@@ -27,7 +27,7 @@ class _AddItemDialogState extends State<AddItemDialog> {
   Widget build(BuildContext context) {
     return AlertDialog(
       title: Text(
-        "Add a Todo",
+        "Add a Todo Item",
         style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
       ),
       content: Container(
