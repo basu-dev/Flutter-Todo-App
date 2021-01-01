@@ -33,7 +33,6 @@ void makeCompleted(id) {
 }
 
 void removeItem(todo) {
-  // var todo = todos.firstWhere((element) => element.id == id);
   todos.remove(todo);
 }
 

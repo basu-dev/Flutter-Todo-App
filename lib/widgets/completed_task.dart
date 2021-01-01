@@ -13,11 +13,11 @@ class _CompletedTasksState extends State<CompletedTasks> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-        itemCount: widget.tasks.length,
+        itemCount: completedTodos.length,
         itemBuilder: (context, index) {
           return Dismissible(
             onDismissed: (direction) {
-              removeItem(widget.tasks[index]);
+              removeItem(completedTodos[index]);
             },
             key: GlobalKey(),
             child: Container(
